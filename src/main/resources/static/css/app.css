@@ -1,0 +1,59 @@
+/* Color */
+.bg-image {
+  background:
+    linear-gradient(to bottom,
+      rgba(255, 73, 73, 1),
+      rgba(255, 73, 73, 0.7)
+    ),
+    url('/img/antomato.png');
+  background-size: cover;
+}
+
+.text-navy {
+  color: #e04900;
+}
+
+.btn-navy {
+  color: white;
+  background-color: #e04900;
+}
+
+.btn-navy:hover {
+  color: white;
+  background-color: #9e1033;
+}
+
+/* Off-Canvas (SideBar) */
+.offcanvas {
+  width: 200px;
+}
+
+@media (min-width: 992px) {
+  .offcanvas {
+    transform: none;
+    visibility: visible !important;
+  }
+
+  .offcanvas-outside {
+    transition: margin-left 0.3s ease-in-out;
+    margin-left: 200px;
+  }
+}
+
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  opacity: 0.5;
+  border: 0;
+}
+
+/* Link */
+a {
+  text-decoration: none;
+}
+
+/* Size */
+.mh-100 {
+  height: calc(100vh - 56px)
+}
